@@ -1,0 +1,243 @@
+@media(max-width:500px) {
+
+    .Dance-three-img {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 10px 20px;
+    }
+
+    .navmenu {
+        display: none;
+    }
+
+    .logo img {
+        margin-left: 10px;
+    }
+
+    .banner h2 {
+        width: 100%;
+        font-size: 62.5px;
+        padding-top: 15%;
+    }
+
+    .banner p {
+        width: 100%;
+    }
+
+    .Dance-div .dance-center-text p,
+    .Pricing-div .Pricing-center-text p {
+        width: 98%;
+        font-size: 20px;
+        margin-left: 1%;
+        padding: 10px;
+    }
+
+    .Pricing-three-img {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 25px 30px;
+
+    }
+
+    .Pricing-frist,
+    .Pricing-second,
+    .Pricing-third {
+        width: 100%;
+    }
+
+    .best-dance,
+    .amazing-dance {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+
+    .amazing-img-left img {
+        padding: 10px 10px;
+
+    }
+
+    .amazing-dance .amazing-text-right {
+        margin-top: -30%;
+
+    }
+
+    .amazing-text-right h2 {
+        width: 100%;
+        font-size: 48px;
+        margin-top: 60%;
+        /* margin-left: 5%; */
+
+    }
+
+    .amazing-text-right p {
+        width: 100%;
+        font-size: 28px;
+        margin-left: 5px;
+    }
+
+    .Dance-text-left p {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .Dance-text-left h2 {
+        width: 100%;
+        font-size: 48px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .amazing-text-right button,
+    .Dance-text-left button {
+        margin-top: 5%;
+        margin-left: 100px;
+    }
+
+    .statistic {
+        /* padding-top: 10%; */
+        /* text-align: center; */
+        /* margin-left: 20px; */
+        padding: 10% 30px;
+
+
+    }
+
+    .statistic-text h2 {
+        width: 100%;
+
+        font-size: 50px;
+        /* margin-left: 20px; */
+        /* margin-top: 20px; */
+        text-align: center;
+        padding-top: 8%;
+        margin-left: 1%;
+    }
+
+    .statistic-text p {
+        font-size: 27px;
+        width: 97%;
+        padding-top: 2%;
+        margin-top: 25px;
+        margin-left: 1%;
+    }
+
+    .statistic-bottom {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+    }
+
+    .statistic-frist,
+    .statistic-second,
+    .statistic-third {
+        height: 400px;
+    }
+
+    .img-div {
+        width: 100%;
+        height: 700px;
+        background-position: 50%;
+
+    }
+
+    .backimg {
+        width: 100%;
+        height: 700px;
+        /* background-position: 50%; */
+
+    }
+
+    .backimg p {
+        width: 90%;
+        font-size: 25px;
+        margin-left: 30px;
+    }
+
+    .backimg b {
+        width: 60%;
+        font-size: 30px;
+        position: absolute;
+        left: 10%;
+
+    }
+
+    .subscribe-text b {
+        position: absolute;
+        left: 6%;
+        top: 25%;
+
+    }
+
+    .subscribe-text p {
+        position: absolute;
+        left: 6%;
+        top: 50%;
+        width: 80%;
+        /* width: 95%; */
+        font-size: 30px;
+
+    }
+
+    .subscribe-text input {
+        height: 50px;
+        width: 300px;
+        top: 85%;
+        left: 5%;
+    }
+
+    .subscribe-text button {
+        height: 50px;
+        width: 25%;
+        left: 67%;
+        top: 80%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .Musicology {
+        width: 100%;
+        height: auto;
+    }
+
+    .Musicology b {
+        font-size: 16.5px;
+        width: 100%;
+    }
+
+    .Musicology p {
+        font-size: 25px;
+        width: 100%;
+
+    }
+
+    .About {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .Services {
+        width: 100%;
+        padding-top: 15%;
+
+    }
+
+    .Other {
+        width: 100%;
+        /* padding-top: 10px; */
+        padding-top: 10%;
+
+    }
+
+    .About-frist,
+    .Services-second,
+    .Other-third {
+        padding-top: 4%;
+    }
+}
