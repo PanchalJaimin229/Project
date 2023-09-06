@@ -1207,6 +1207,18 @@ a {
 .blackbox2:hover::before {
     transform: scale(0);
 }
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
 
 .box1font1 {
     font-size: 35px;
