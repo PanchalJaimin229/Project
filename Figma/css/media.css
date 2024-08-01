@@ -8,9 +8,23 @@
         transition: .3s;
     }
     .navmenu{
-        display: none;
+       position: fixed;
+       background: red;
+       display: block;
+       top: 0;
+       width: 250px;
+       height: 100%;
+       right:-100%;
+       transition: 1s;
     }
-    .btn-icon{
+    .navmenu.active{
+        right: 0;
+    }
+    .navmenu .close{
+        display: block;
+        font-size: 30px;
+    }
+    .btn-icon .nav-btn{
         display: none;
     }
     .bar{
@@ -108,14 +122,7 @@
         display: block;
     }
     .navemenu{
-        position: absolute;
-        top: -600px;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        background: #FFF1DA;
-        text-align: left;
-        transition: all .42s;
+       display:block;
     }
     .navemenu a{
         display: block;

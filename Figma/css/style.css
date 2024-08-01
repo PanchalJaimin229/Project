@@ -32,6 +32,9 @@ header {
 .navmenu {
     display: flex;
 }
+.navmenu .close{
+    display: none;
+}
 
 .navmenu li {
     position: relative;
@@ -270,12 +273,7 @@ header.sticky {
     transition: margin-left .5s;
     padding: 16px;
   }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
+
 .center-text h4 {
     font-size: 18px;
     color: #5E6282;
@@ -340,17 +338,6 @@ header.sticky {
     align-items: center;
     gap: 2rem;
 }
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: all 2s ease;
-  }
-  
-  .reveal.active{
-    transform: translateY(0px);
-    opacity: 1;
-  }
 
 .hov-img img {
     width: 100%;

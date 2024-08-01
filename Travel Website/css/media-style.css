@@ -1,0 +1,336 @@
+@media (max-width : 1200px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .discover_container {
+        max-width: 890px;
+    }
+
+    .experience_img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .experience .experience_img .experience_overlay:nth-child(2) {
+        top: 50px;
+    }
+
+    .video .video_container {
+        display: grid;
+        grid-template-columns: 0.7fr;
+        place-items: center;
+        justify-content: center;
+    }
+
+    video {
+        max-width: 100%;
+    }
+}
+
+@media (max-width : 992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .home .home_data .home_title {
+        font-size: 40px;
+    }
+
+    .home_info {
+        width: 250px;
+    }
+
+    .home_info div .home_info_title {
+        font-size: 13px;
+    }
+
+    .home_info div .btn {
+        font-size: 12px;
+    }
+
+    .discover_container {
+        max-width: 700px;
+    }
+
+    .discover_card {
+        width: 230px;
+    }
+
+    .experience .experience_img .experience_overlay:nth-child(2) {
+        width: 180px;
+    }
+
+    .places .place_card {
+        width: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .home_info {
+        right: 10px;
+    }
+
+    .about .container {
+        grid-template-columns: 1fr;
+    }
+
+    .discover_container {
+        max-width: 570px;
+    }
+
+    .discover_card {
+        width: 170px;
+    }
+
+    .experience .experience_img .experience_overlay:nth-child(2) {
+        width: 120px;
+    }
+
+    .experience .experience_img .experience_overlay:nth-child(1) {
+        margin-right: 60px;
+    }
+
+    .places .place_card {
+        width: 150px;
+    }
+
+    .places .place_card .place_data {
+        padding: 10px;
+    }
+
+    .place_rating {
+        font-size: 13px;
+    }
+
+    .place_card .place_data .place_name .place_title {
+        font-size: 20px;
+    }
+
+    .place_card .place_data .place_name .place_subtitle {
+        font-size: 13px;
+    }
+
+    .place_rating i {
+        margin-right: 10px;
+    }
+
+    .place_card .place_data .place_name .place_price {
+        font-size: 17px;
+    }
+
+    .place_card .place_data .btn {
+        padding: 10px 15px;
+    }
+
+    .subscribe .subscribe_form {
+        max-width: 80%;
+    }
+
+    .sponsor .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer .container {
+        grid-template-columns: repeat(2, 1fr);
+        place-items: start;
+    }
+
+    .footer_bottom .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav_menu {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        max-width: 300px;
+        width: 300px;
+        height: 100vh;
+        flex-direction: column;
+        background-color: var(--body-color);
+        ;
+        box-shadow: -1px 0 4px rgb(14 55 63 / 15%);
+        padding: 50px;
+        color: var(--text-color);
+        font-size: var(--normal-font-size);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav_menu.open {
+        right: 0;
+    }
+
+    .header .nav_link.active {
+        max-width: max-content;
+        border-bottom: 2px solid var(--text-color);
+    }
+
+    #bar {
+        display: block;
+    }
+
+    #close {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        cursor: pointer;
+    }
+
+    .day_night_text {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .day_night_wrapper {
+        position: absolute;
+        bottom: 80px;
+        left: 50px;
+    }
+
+    .uparrow {
+        right: 10px;
+    }
+
+    .uparrow.active{
+        bottom: 10px;
+    }
+}
+
+@media (max-width : 570px) {
+    .header .logo {
+        font-size: 20px;
+    }
+
+    .home_social_link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .home_info {
+        width: 230px;
+    }
+
+    .home_info div .btn {
+        gap: 10px;
+    }
+
+    .about .about_img {
+        width: 80%;
+    }
+
+    .home .home_data .home_title {
+        font-size: 40px;
+    }
+
+    .about .about_data .about_data_title,
+    .discover .discover_title,
+    .experience .experience_title,
+    .video .video_title,
+    .subscribe .subscribe_title {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    .discover_card {
+        width: 230px;
+    }
+
+    .experience_img {
+        width: 80%;
+    }
+
+    .video .video_container {
+        grid-template-columns: 0.9fr;
+    }
+
+    #play_pause {
+        right: 10%;
+    }
+
+    .places .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .places .place_card {
+        width: 190px;
+    }
+
+    .footer .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width : 400px) {
+    .section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .home .home_data .home_title {
+        font-size: 20px;
+    }
+
+    .home_info {
+        width: 180px;
+    }
+
+    .about .about_img {
+        width: 100%;
+    }
+
+    .experience_container .experience_content .experience_data .ex_number {
+        font-size: 15px;
+    }
+
+    .experience_container .experience_content .experience_data .ex_text,
+    .video .video_sub_title {
+        font-size: 10px;
+    }
+
+    .experience_img {
+        width: 100%;
+    }
+
+    .experience .experience_img .experience_overlay:nth-child(2) {
+        width: 100px;
+        top: 30px;
+    }
+
+    #play_pause {
+        font-size: 10px;
+        padding: 5px 10px;
+        right: 20%;
+        bottom: -10px;
+    }
+
+    .places .container {
+        grid-template-columns: 1fr;
+    }
+
+    .subscribe .subscribe_form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .subscribe .subscribe_form input {
+        font-size: 15px;
+    }
+
+    .sponsor .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer_bottom .container {
+        font-size: 10px;
+    }
+}
